@@ -15,6 +15,7 @@ antigen bundle docker
 antigen bundle eastokes/aws-plugin-zsh
 antigen bundle hanjunlee/terraform-oh-my-zsh-plugin
 antigen bundle laggardkernel/zsh-thefuck
+antigen bundle lukechilds/zsh-better-npm-completion
 
 export NVM_AUTO_USE=true
 antigen bundle lukechilds/zsh-nvm

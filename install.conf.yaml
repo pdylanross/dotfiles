@@ -10,6 +10,14 @@
         create: true
     ~/.p10k.zsh:
         path: p10k.zsh
+    /usr/local/bin/kubectx:
+        path: kubectx/kubectx
+        create: true
+        if: chmod +x kubectx/kubectx
+    /usr/local/bin/kubens:
+        path: kubectx/kubens
+        create: true
+        if: chmod +x kubectx/kubens
         
 
 - shell:
