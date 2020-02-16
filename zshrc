@@ -1,8 +1,5 @@
 # https://github.com/ryanoasis/nerd-fonts
-# https://github.com/Powerlevel9k/powerlevel9k
-
-DYLAN_DOTFILES_DIR=${0:A:h}
-source $DYLAN_DOTFILES_DIR/powerline.zsh
+# https://github.com/romkatv/powerlevel10k
 
 source ~/.antigen/antigen.zsh
 
