@@ -7,7 +7,10 @@
         path: zshrc
     ~/.antigen/antigen.zsh:
         path: antigen/antigen.zsh
-        create: false
+        create: true
+    ~/.p10k.zsh:
+        path: p10k.zsh
+        
 
 - shell:
   - chsh -s $(which zsh)
