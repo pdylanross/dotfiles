@@ -3,18 +3,12 @@
 - link:
     ~/.gitconfig:
         path: gitconfig
-        create: false
-        relink: false
-        force: false
-    ~/.ssh/config:
-        path: ssh/config
-        create: true
-        relink: false
-        force: false
     ~/.zshrc:
         path: zshrc
+    ~/.antigen/antigen.zsh:
+        path: antigen/antigen.zsh
         create: false
-        relink: false
-        force: false
 
+- shell:
+  - chsh -s $(which zsh)
 

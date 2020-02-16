@@ -1,4 +1,0 @@
-Host cura-dev #cura-dev
-    HostName ec2-100-21-69-179.us-west-2.compute.amazonaws.com
-    User dylan.ross
-    IdentityFile /home/dylan/.ssh/dylan.ross-dev
