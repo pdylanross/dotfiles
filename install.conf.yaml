@@ -1,15 +1,11 @@
 - clean: ['~']
 
 - link:
-    ~/.gitconfig:
-        path: gitconfig
-    ~/.zshrc:
-        path: zshrc
-    ~/.antigen/antigen.zsh:
-        path: antigen/antigen.zsh
+    ~/.gitconfig: gitconfig
+    ~/.zshrc: zshrc
+    ~/.config/starship.toml: 
+        path: starship.toml
         create: true
-    ~/.p10k.zsh:
-        path: p10k.zsh
     /usr/local/bin/kubectx:
         path: kubectx/kubectx
         create: true
